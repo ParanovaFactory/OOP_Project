@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h1>Cities List</h1>
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name </th>
+        <th>Population </th>
+        <th>Country </th>
+        <th>Country Flag Color</th>
+    </tr>
+    <tr>
+        <td>@ViewBag.infoId</td>
+        <td>@ViewBag.infoName </td>
+        <td>@ViewBag.infoPop</td>
+        <td>@ViewBag.infoCon</td>
+        <td>@ViewBag.flagc1 - @ViewBag.flagc2 - @ViewBag.flagc3</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.infoId1</td>
+        <td>@ViewBag.infoName1</td>
+        <td>@ViewBag.infoPop1</td>
+        <td>@ViewBag.infoCon1</td>
+        <td>@ViewBag.flagc11 - @ViewBag.flagc21 - @ViewBag.flagc31</td>
+    </tr>
+</table>
+<a href="/Default/Products/" class="btn-info">Porducts</a>
